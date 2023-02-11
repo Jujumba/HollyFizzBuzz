@@ -1,6 +1,8 @@
 U0 Main() {
 	for (U0 i = 0; i < 100; ++i) {
-		if (i % 3 == 0) {
+		if (i % 3 == 0 && i % 5 == 0) {
+			"FizzBuzz";
+		} else if (i % 3 == 0) {
 			"Fizz";
 		} else if (i % 5 == 0) {
 			"Buzz";
